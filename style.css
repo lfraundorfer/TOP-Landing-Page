@@ -1,6 +1,6 @@
-* {
+/* * {
 	outline: 2px solid red;
-}
+} */
 
 body {
 	font-family: "Roboto", sans-serif;
@@ -22,6 +22,7 @@ ul {
 	gap: 12vh;
 	background-color: #1F2937;
 	padding:1vh 15vw 15vh;
+
 }
 
 .header {
@@ -35,13 +36,13 @@ ul {
 	display:flex;
 	justify-content: space-between;
 	gap: 2vw;
-	max-height:10%;
+	max-height: 25vh;
+	max-width: 68vw;
 }
 
 .heroleft {
 	display:flex;
 	flex-direction: column;
-	max-width:40%;
 	flex:1;
 	/* flex-basis:100%; */
 	/* flex-shrink:1; */
@@ -51,13 +52,11 @@ ul {
 .heroright {
 	display:flex;
 	flex:1;
-	max-width:40%;
 }
 
 .heroright img {
 	width:100%;
 	height:auto; /*to maintain aspect ratio**/
-
 }
 
 .heromain  {
@@ -71,7 +70,15 @@ ul {
 
 .herosecondary {
 	max-width:23vw;
+}
 
+#herobtn {
+	margin-top: 1rem;
+	padding: 0.5rem 2rem;
+	border-radius: 0.5rem;
+	color: #F9FAF8;
+	font-weight:800;
+	font-size:18px;
 }
 
 .herosecondary, .headerright  {
@@ -93,6 +100,7 @@ ul {
 
 .button, .cta {
 	background-color: #3882F6;
+	
 }
 
 .infoheader {
